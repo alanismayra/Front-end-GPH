@@ -1,0 +1,19 @@
+.backFooter{
+    background-color: #22577aff ;
+    height: 170px !important;
+}
+.texto{
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+.texto2{
+    color: white;
+    height:80vh !important ;
+}
+.redes{
+    font-size: 50px !important;
+    color: white;
+    padding: 10px;
+}
