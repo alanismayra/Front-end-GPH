@@ -12,10 +12,10 @@ function Footer() {
                     <Box className='backFooter' marginTop='-5px'>
 
                         <Box display="flex" alignItems="center" justifyContent="center" >
-                            <a href="https://www.instagram.com/alanismayraoliveira/" target="_blank">
+                            <a href="https://www.instagram.com/greenpowerhub23/" target="_blank">
                                 <InstagramIcon className='redes' />
                             </a>
-                            <a href="https://github.com/Projeto-Integrador-Generation" target="_blank">
+                            <a href="https://github.com/orgs/Projeto-Integrador-Generation/repositories" target="_blank">
                                 <GitHubIcon className='redes' />
                             </a>
                         </Box>

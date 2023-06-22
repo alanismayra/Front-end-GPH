@@ -1,5 +1,8 @@
-.space{
-    display: flex;
-    width:100%;
-    height:100%;
+.caixa1{
+    background-color: #FFFCEE;
+}
+
+.titulo1{
+    color:#57cc99ff !important;
+     font-weight:bold !important;
 }

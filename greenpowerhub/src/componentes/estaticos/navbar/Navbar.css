@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=IBM+Plex+Mono:wght@300&family=Open+Sans&display=swap');
+
 .cursor{
     cursor: pointer;
-    color: white;
+    color: #38a3a5ff;
 }
 .text-decorator-none{
     text-decoration: none;
+}
+
+.appbar{
+    background-color: #c7f9ccff!important;
+   list-style-type: none;
+   font-family: Fredoka One,cursive;
 }
 

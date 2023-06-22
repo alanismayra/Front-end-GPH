@@ -1,0 +1,13 @@
+--lapis-lazuli: #22577aff; - Cor de botões 
+
+--verdigris: #38a3a5ff; - NavBar e footer.
+
+--emerald: #57cc99ff; - A DEFINIR
+
+--light-green: #80ed99ff; - A DEFINIR
+
+--tea-green: #c7f9ccff; - A DEFINIR
+
+lightgrey - Cor das letras quando utilizado o --verdigris
+
+areia - #FFFCEE - cor do background do site
