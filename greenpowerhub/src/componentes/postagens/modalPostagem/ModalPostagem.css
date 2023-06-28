@@ -1,0 +1,14 @@
+.cursor{
+    cursor: pointer;
+}
+
+.btnModal{
+    border-color: #1a759fff !important;
+    background: linear-gradient(to bottom, #b5e48c 5%, #168aad 100%); 
+    background-color: black !important;
+    height:150px;
+    width:350px;
+    color: white !important;
+    font-size: 30px !important;
+    border-radius: 2rem !important;
+}

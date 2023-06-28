@@ -1,5 +1,6 @@
 .backFooter{
-    background-color: #38a3a5ff ;
+    background-color: #184e77ff;
+    background: linear-gradient(to bottom, #34a0a4 0%, #184e77 100%);
     height: 170px !important;
 }
 .texto{
@@ -10,10 +11,12 @@ a:link{
 }
 .texto2{
     color: white;
-    height:80vh !important ;
+    height:0px !important ;
 }
 .redes{
     font-size: 50px !important;
     color: white;
     padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }

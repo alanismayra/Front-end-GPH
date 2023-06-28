@@ -3,6 +3,53 @@
 }
 
 .titulo1{
+
+
     color:#57cc99ff !important;
      font-weight:bold !important;
+}
+
+.texto2{
+
+    vertical-align: center;
+    color:#57cc99ff !important;
+
+}
+
+.foto1{
+
+    border-radius: 50%;
+    border-style: double;
+    float: left;
+}
+
+.alanys{
+
+    border-radius: 50%;
+}
+
+.alessandra{
+
+    border-radius: 50%;
+}
+
+.bruno{
+    
+    border-radius: 50%;
+
+}
+
+.luiz{
+
+    border-radius: 50%;
+}
+
+.ricardo{
+
+    border-radius: 50%;
+}
+
+.thayna{
+
+    border-radius: 50%;
 }

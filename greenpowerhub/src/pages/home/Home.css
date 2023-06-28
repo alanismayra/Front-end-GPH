@@ -5,16 +5,33 @@
  }
  
  .titulo{
-     color:#57cc99ff !important;
+     color: white !important;
      font-weight:bold !important;
+     align-self: center;
+     text-align: center;
+
  }
  
  .botao{
-     border-color: #22577aff !important;
-     background-color: #22577aff !important;
+     border-color: #1a759fff !important;
+     background-color:  #1e6091ff !important;
+     background: linear-gradient(to bottom, #b5e48c 5%, #168aad 100%);
      color: white !important;
+     height: 150px;
+     width: 350px;
+     font-size: 30px !important;
+     margin-bottom: 100px !important;
+     border-radius: 2rem !important;
  }
  .postagens{
      background-color:#E9DDC3;
- 
+     
+ }
+
+ .textoInfo{
+    background-color:#76c893ff;
+    display: flex;
+    justify-content:center ;
+    height: 250px;
+    margin-bottom: 100px !important
  }

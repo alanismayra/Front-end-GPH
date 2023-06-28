@@ -2,15 +2,22 @@
 
 .cursor{
     cursor: pointer;
-    color: #38a3a5ff;
+    color: white;
+    font-family: Fredoka One,cursive ;
 }
 .text-decorator-none{
     text-decoration: none;
 }
 
 .appbar{
-    background-color: #c7f9ccff!important;
+    background-color:#34a0a4ff!important;
    list-style-type: none;
-   font-family: Fredoka One,cursive;
+   width: 100vw;
+   height: 70px;
 }
+
+.logout{
+    margin-top: 4.5px;
+}
+
 

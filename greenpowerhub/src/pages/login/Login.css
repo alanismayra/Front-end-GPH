@@ -1,14 +1,21 @@
-.textos{
+.textos {
     font-weight: bold !important;
 }
-.text-decorator-none{
+
+.text-decorator-none {
     text-decoration: none;
 }
-.imagem{
-        background-image: url(./images/gph2.jpg);
-        background-repeat: no-repeat;
-        width:100vh;
-        min-height:100vh;
-        background-size:cover;
-        background-position:center;
+
+.imagem {
+    background-image: url(./images/renewable-1989416.jpg);
+    background-repeat: no-repeat;
+    width: 1000vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.fundoForm {
+    margin: 0px;
+    backdrop-filter: blur(30px);
 }
