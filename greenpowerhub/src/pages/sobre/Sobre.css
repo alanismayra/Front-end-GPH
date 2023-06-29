@@ -1,55 +1,18 @@
-.caixa1{
-    background-color: #FFFCEE;
-}
-
-.titulo1{
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Roboto:wght@100&display=swap');
 
 
-    color:#57cc99ff !important;
-     font-weight:bold !important;
-}
-
-.texto2{
-
-    vertical-align: center;
-    color:#57cc99ff !important;
-
-}
-
-.foto1{
-
-    border-radius: 50%;
-    border-style: double;
-    float: left;
-}
-
-.alanys{
+.fotosDev{
 
     border-radius: 50%;
 }
 
-.alessandra{
+.titulo{
 
-    border-radius: 50%;
+    font-family: 'Bacasime Antique'
 }
 
-.bruno{
+.imagemCentral{
+
+    border-radius: 50%;
     
-    border-radius: 50%;
-
-}
-
-.luiz{
-
-    border-radius: 50%;
-}
-
-.ricardo{
-
-    border-radius: 50%;
-}
-
-.thayna{
-
-    border-radius: 50%;
 }
