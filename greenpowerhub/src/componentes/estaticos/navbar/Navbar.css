@@ -11,6 +11,7 @@
 
 .appbar{
     background-color:#34a0a4ff!important;
+    background: linear-gradient(to bottom, #184e77 0%, #34a0a4 100%);
    list-style-type: none;
    width: 100vw;
    height: 70px;

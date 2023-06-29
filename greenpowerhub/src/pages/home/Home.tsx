@@ -30,11 +30,17 @@ function Home() {
 
             <Grid container direction="row" justifyContent="Center" alignItems="center" className='caixa' >
 
+            <Grid alignItems="center" item xs={12}>
+            <Box paddingX={12} className="bemvindo">
+                        {/* <Typography variant="h5" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo ao Green Power Hub</Typography> */}
+                        <Typography variant="h1" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Bem-vindo ao Green Power Hub </Typography>
+                        </Box>
+                    </Grid>
                 <Box display={{ xs: 'none', md: 'block' }}>
                     <Carousel />
                 </Box>
-                <Grid xs={12} className="postagens">
-                </Grid>
+                {/* <Grid xs={12} className="postagens">
+                </Grid> */}
                 <Grid alignItems="center" item xs={12}>
                     <Box paddingX={12} className="textoInfo">
                         {/* <Typography variant="h5" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo ao Green Power Hub</Typography> */}

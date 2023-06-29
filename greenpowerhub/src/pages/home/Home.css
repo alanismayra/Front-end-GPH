@@ -1,4 +1,9 @@
 
+/* @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+*{
+    font-family: 'Bacasime Antique', serif !important;
+} */
+    
 .caixa{
     background-color: #FFFCEE;
  
@@ -34,4 +39,16 @@
     justify-content:center ;
     height: 250px;
     margin-bottom: 100px !important
+
  }
+
+ .bemvindo{
+
+    background-color:#76c893ff;
+    display: flex;
+    justify-content:center ;
+    height: 200px;
+    margin-bottom: 30px !important;
+    margin-top: 50px;
+ }
+ 

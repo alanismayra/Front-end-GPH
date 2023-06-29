@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Roboto:wght@100&display=swap');
 
 
+.cardtech{
+    background: linear-gradient(to bottom, #1e6091 0%, #34a0a4 100%);
+}
+
+.titulo{
+
+ background-color: #34A0A4;
+  
+}
+
+.cardmissao{
+
+    background: linear-gradient(to bottom, #34a0a4 0%, #1a759f 100%);
+}
+
+.cardprojeto{
+
+    background: linear-gradient(to bottom, #1a759f 0%, #1e6091 100%);
+}
+
 .fotosDev{
 
     border-radius: 50%;
