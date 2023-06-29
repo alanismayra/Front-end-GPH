@@ -2,6 +2,7 @@
 
 
 .cardtech{
+
     background: linear-gradient(to bottom, #1e6091 0%, #34a0a4 100%);
 }
 
@@ -23,6 +24,9 @@
 
 .fotosDev{
 
+    
+    border-style: double;
+    justify-content: center;
     border-radius: 50%;
 }
 
@@ -31,8 +35,3 @@
     font-family: 'Bacasime Antique'
 }
 
-.imagemCentral{
-
-    border-radius: 50%;
-    
-}
