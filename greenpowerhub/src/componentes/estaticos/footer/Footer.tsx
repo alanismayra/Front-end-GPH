@@ -7,10 +7,10 @@ function Footer() {
 
     return (
         <>
-           <Grid container direction="row" justifyContent="center" alignItems="center"><hr></hr>
+           <Grid container direction="row" justifyContent="center" alignItems="center">
             <Grid alignItems="center" item xs={12}>
 
-                <Box className='backFooter' marginTop='0px'>
+                <Box className='backFooter' marginTop='0px'><hr></hr>
 
                 
                         <Box display="flex" alignItems="center" justifyContent="center" >

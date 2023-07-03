@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Card, CardActions, CardContent, Button, Typography } from '@material-ui/core';
 import { Box } from '@mui/material';
-// import './DeletarTema.css';
+import './DeletarTema.css';
 import { useNavigate, useParams } from 'react-router-dom';
 import { buscaId, deleteId } from '../../../services/Service';
 import Tema from '../../../models/Tema';
@@ -73,7 +73,7 @@ function DeletarTema() {
   return (
     <>
       <Box m={2}>
-        <Card variant="outlined">
+        <Card variant="outlined" className="corDeletarTema">
           <CardContent>
             <Box justifyContent="center">
               <Typography color="textSecondary" gutterBottom>
@@ -87,7 +87,7 @@ function DeletarTema() {
           <CardActions>
             <Box display="flex" justifyContent="start" ml={1.0} mb={2} >
               <Box mx={2}>
-                <Button onClick={sim} variant="contained" className="marginLeft" size='large' style={{ borderColor: "lightgrey", backgroundColor: "#1a759fff", color: "lightgrey" }} >
+                <Button onClick={sim} variant="contained" className="marginLeft" size='large' style={{ borderColor: "lightgrey", backgroundColor: "#1a759fff", color: "white" }} >
                   Sim
                 </Button>
               </Box>

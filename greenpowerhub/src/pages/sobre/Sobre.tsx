@@ -206,7 +206,7 @@ function Sobre() {
                 </Grid>
                 <Grid item md={12}>
                     <Box paddingX={12} textAlign={'center'}>
-                        <Typography variant='h4' align="center" color={'white'} > Siga nossas redes e acompanhe nosso trabalho!</Typography><hr></hr>
+                        <Typography variant='h4' align="center" color={'white'} > Siga nossas redes e acompanhe nosso trabalho!</Typography>
                     </Box>
                 </Grid>
 

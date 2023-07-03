@@ -1,4 +1,9 @@
-.topo{
-    margin-top: 20px;
-}
+.topo {
+    border-radius: 20px;
+    background-color: rgb(220, 235, 235) !important;
+    border-color: rgb(94, 126, 126) !important;
+    height: 450px;
+    width: 600px;
+    text-align: center;
 
+}
