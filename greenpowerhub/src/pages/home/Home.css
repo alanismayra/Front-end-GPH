@@ -9,7 +9,7 @@
  
  }
  
- .titulo{
+ .titulo1{
      color: white !important;
      font-weight:bold !important;
      align-self: center;
@@ -34,7 +34,7 @@
  }
 
  .textoInfo{
-    background-color:#76c893ff;
+    background-color:#76c893ff !important;
     display: flex;
     justify-content:center ;
     height: 250px;
@@ -42,13 +42,5 @@
 
  }
 
- .bemvindo{
 
-    background-color:#76c893ff;
-    display: flex;
-    justify-content:center ;
-    height: 200px;
-    margin-bottom: 30px !important;
-    margin-top: 50px;
- }
  

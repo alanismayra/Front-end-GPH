@@ -4,6 +4,7 @@ import './Navbar.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/TokenReducer';
 import { addToken } from '../../../store/tokens/Action';
+import {toast} from 'react-toastify';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
 function Navbar() {
@@ -16,7 +17,16 @@ function Navbar() {
 
     function goLogout() {
         dispatch(addToken(''));
-        alert("Usuário deslogado")
+        toast.info('Usuário deslogado', {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: false,
+            progress: undefined,
+            theme: "colored",
+        });
         navigate('/login')
     }
 

@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import ModalPostagem from '../../componentes/postagens/modalPostagem/ModalPostagem';
 import { TokenState } from '../../store/tokens/TokenReducer';
+import { toast } from 'react-toastify';
 // import TabPostagem from '../../componentes/postagens/tabpostagem/TabPostagem';
 
 
@@ -19,7 +20,16 @@ function Home() {
     
     useEffect(() => {
       if (token == "") {
-          alert("Você precisa estar logado")
+        toast.error('Você precisa estar logado', {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: false,
+            progress: undefined,
+            theme: "colored",
+        });
           navigate("/login")
   
       }
@@ -30,12 +40,6 @@ function Home() {
 
             <Grid container direction="row" justifyContent="Center" alignItems="center" className='caixa' >
 
-            <Grid alignItems="center" item xs={12}>
-            <Box paddingX={12} className="bemvindo">
-                        {/* <Typography variant="h5" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo ao Green Power Hub</Typography> */}
-                        <Typography variant="h1" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Bem-vindo ao Green Power Hub </Typography>
-                        </Box>
-                    </Grid>
                 <Box display={{ xs: 'none', md: 'block' }}>
                     <Carousel />
                 </Box>
@@ -44,7 +48,7 @@ function Home() {
                 <Grid alignItems="center" item xs={12}>
                     <Box paddingX={12} className="textoInfo">
                         {/* <Typography variant="h5" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo ao Green Power Hub</Typography> */}
-                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Bem-vindo ao Green Power Hub, a rede social dedicada à energia limpa e renovável. Conecte-se, compartilhe informações e promova soluções sustentáveis. Junte-se a uma comunidade global empenhada em acelerar a transição para um futuro mais verde. Faça networking, encontre soluções e impulsione a mudança. Juntos, construiremos um mundo movido por energia limpa.</Typography>
+                        <Typography variant="h5" gutterBottom align="center" className='titulo1'>Bem-vindo ao Green Power Hub, a rede social dedicada à energia limpa e renovável. Conecte-se, compartilhe informações e promova soluções sustentáveis. Junte-se a uma comunidade global empenhada em acelerar a transição para um futuro mais verde. Faça networking, encontre soluções e impulsione a mudança. Juntos, construiremos um mundo movido por energia limpa.</Typography>
                     </Box>
                     <Box display='flex' justifyContent= 'space-evenly'>
                         <Box marginRight={1}>

@@ -1,0 +1,31 @@
+.formulario{
+    width: 80%;
+    
+}
+
+.contato{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 40px;
+}
+
+button{
+    background-color: var(--background-nav);
+    font-weight: 800;
+    color: white;
+    
+}
+
+.fundoCtt {
+    box-shadow: 0 0 20px;
+    border-radius: 2%;
+    background: linear-gradient(to bottom, #76c893 0%, #168aad 100%);
+    
+}
+
+.texto_form{
+    background-color: white;
+
+}
+

@@ -9,6 +9,8 @@ import Contato from './pages/contato/Contato';
 import './App.css'
 import { Provider } from 'react-redux';
 import store from './store/Store';
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import ListaTema from './componentes/temas/listatema/ListaTema';
 import ListaPostagem from './componentes/postagens/listaPostagem/ListaPostagem';
 import CadastroPost from './componentes/postagens/cadastroPost/CadastroPost';
@@ -21,6 +23,7 @@ import DeletarTema from './componentes/temas/deletarTema/DeletarTema';
 function App() {
   return (
     <Provider store={store}>
+      <ToastContainer />
     <Router>
       <Navbar />
       <div style={{ minHeight: '100vh' }}>
@@ -57,8 +60,8 @@ function App() {
 
         </Routes>
       </div>
-      <Footer />
-
+      <Footer/>
+      
     </Router>
     </Provider>
 

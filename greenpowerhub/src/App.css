@@ -2,3 +2,15 @@
 *{
     margin: 0;
 }
+
+hr{
+
+    border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
+body{
+  background-color:#34a0a4ff!important;
+  background: linear-gradient(to bottom, #184e77 0%, #34a0a4 100%);
+}

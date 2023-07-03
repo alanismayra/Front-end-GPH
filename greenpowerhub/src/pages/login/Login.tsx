@@ -6,6 +6,7 @@ import UserLogin from '../../models/UserLogin';
 import { login } from '../../services/Service';
 import { useDispatch } from 'react-redux';
 import { addToken } from '../../store/tokens/Action';
+import { toast } from 'react-toastify';
 
 function Login() {
 
@@ -42,10 +43,27 @@ function Login() {
         e.preventDefault();
         try {
             await login(`/usuarios/logar`, userLogin, setToken)
-
-            alert('Usuário logado com sucesso!');
+            toast.success('Usuário logado com sucesso!', {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: false,
+                draggable: false,
+                progress: undefined,
+                theme: "colored",
+                });
         } catch (error) {
-            alert('Dados do usuário inconsistentes. Erro ao logar!');
+            toast.error('Dados do usuário inconsistentes. Erro ao logar!', {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: false,
+                draggable: false,
+                progress: undefined,
+                theme: "colored",
+                });
 
         } //uma tentativa de execução caso não dê certo, retorna um erro.
 
@@ -58,19 +76,19 @@ function Login() {
                 <Box paddingX={20}>
                     <form onSubmit={onSubmit} className="fundoForm">
                         <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align="center" className="textos">Entrar</Typography>
-                        <TextField value={userLogin.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id="usuario" label='usuario' variant='outlined' name="usuario" margin="normal" fullWidth />
-                        <TextField value={userLogin.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id="senha" label='senha' variant='outlined' name="senha" margin="normal" type="password" fullWidth />
+                        <TextField value={userLogin.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id="usuario" label='Usuario' variant='outlined' name="usuario" margin="normal"  className="caixa"/>
+                        <TextField value={userLogin.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id="senha" label='Senha' variant='outlined' name="senha" margin="normal" type="password"  className="caixa"/>
                         <Box marginTop={2} textAlign='center'>
-                            <Button type='submit' variant='contained' style={{ borderColor: "lightgrey", backgroundColor: "#22577a", color: "white" }}>
+                            <Button type='submit' variant='contained' style={{ borderColor: "black", backgroundColor: "#1a759fff", color: "white" }}>
                                 Logar
                             </Button>
                         </Box>
                         <Box display='flex' justifyContent='center' marginTop={3}>
                             <Box marginRight={1}>
-                                <Typography variant='subtitle1' gutterBottom align="center">Não tem uma conta?</Typography>
+                                <Typography variant='h6' gutterBottom align="center" className="texto1">Não tem uma conta?</Typography>
                             </Box>
                             <Link to="/cadastroUsuario">
-                                <Typography variant='subtitle1' gutterBottom align="center" className="textos">Cadastre-se</Typography>
+                                <Typography variant='h6' gutterBottom align="center" className="cadastro">Cadastre-se</Typography>
                             </Link>
                         </Box>
                     </form>

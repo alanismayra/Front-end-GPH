@@ -1,3 +1,23 @@
 .btnCancelar {
     margin-right: 20px !important;
 }
+
+.imgCadastre {
+    background-image: url(./images/cadastre.jpg);
+    background-repeat: no-repeat;
+    width: 1000vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fundoForm {
+    margin: 0px;
+    backdrop-filter: blur(30px);
+    /* width: 400px; */
+    justify-content: center;
+    border-radius: 5%;
+    box-shadow: 0 0 30px;
+
+}

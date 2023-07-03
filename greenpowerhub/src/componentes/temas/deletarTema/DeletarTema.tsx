@@ -7,6 +7,7 @@ import { buscaId, deleteId } from '../../../services/Service';
 import Tema from '../../../models/Tema';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/TokenReducer';
+import { toast } from 'react-toastify';
 
 
 function DeletarTema() {
@@ -18,7 +19,16 @@ function DeletarTema() {
   const [tema, setTema] = useState<Tema>()
   useEffect(() => {
     if (token == "") {
-      alert("Você precisa estar logado")
+        toast.error('Você precisa estar logado', {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: false,
+          progress: undefined,
+          theme: "colored",
+          });
       navigate('/login')
     }
   }, [token])
@@ -44,7 +54,16 @@ function DeletarTema() {
         'Authorization': token
       }
     });
-    alert('Tema deletado com sucesso');
+    toast.success('Tema deletado com sucesso', {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: false,
+      progress: undefined,
+      theme: "colored",
+      });
   }
 
   function nao() {
@@ -68,7 +87,7 @@ function DeletarTema() {
           <CardActions>
             <Box display="flex" justifyContent="start" ml={1.0} mb={2} >
               <Box mx={2}>
-                <Button onClick={sim} variant="contained" className="marginLeft" size='large' color="primary">
+                <Button onClick={sim} variant="contained" className="marginLeft" size='large' style={{ borderColor: "lightgrey", backgroundColor: "#1a759fff", color: "lightgrey" }} >
                   Sim
                 </Button>
               </Box>

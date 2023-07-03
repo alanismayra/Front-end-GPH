@@ -22,7 +22,7 @@ import Imagem6 from '/images/Energia solar.jpg'
 function Carrossel() {
     return (
         <>
-            
+
             <Swiper
                 slidesPerView={1}
                 spaceBetween={0}
@@ -33,7 +33,7 @@ function Carrossel() {
                 autoplay={{
                     delay: 5000,
                     disableOnInteraction: false,
-                  }}
+                }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
@@ -46,11 +46,11 @@ function Carrossel() {
                 <SwiperSlide>
                     <img src={Imagem2} />
                 </SwiperSlide>
-                
+
                 <SwiperSlide>
-                    <img  src={Imagem3} />
+                    <img src={Imagem3} />
                 </SwiperSlide>
-               
+
                 <SwiperSlide>
                     <img src={Imagem4} />
                 </SwiperSlide>

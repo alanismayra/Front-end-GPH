@@ -7,6 +7,7 @@ import { buscaId, deleteId } from '../../../services/Service';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/TokenReducer';
+import { toast } from 'react-toastify';
 
 function DeletarPostagem() {
   let navigate = useNavigate();
@@ -18,7 +19,16 @@ function DeletarPostagem() {
 
   useEffect(() => {
     if (token == "") {
-      alert("Você precisa estar logado")
+        toast.error('Você precisa estar logado', {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: false,
+          progress: undefined,
+          theme: "colored",
+    });
       navigate('/login')
     }
   }, [token])
@@ -44,7 +54,16 @@ function DeletarPostagem() {
       'Authorization': token
       }
     });
-    alert('Postagem deletada com sucesso');
+    toast.success('Postagem deletada com sucesso', {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: false,
+      progress: undefined,
+      theme: "colored",
+  });
   }
 
   function nao(){
@@ -68,7 +87,7 @@ function DeletarPostagem() {
           <CardActions>
             <Box display="flex" justifyContent="start" ml={1.0} mb={2} >
               <Box mx={2}>
-              <Button onClick={sim} variant="contained" className="marginLeft" size='large' color="primary">
+              <Button onClick={sim} variant="contained" className="marginLeft" size='large' style={{ borderColor: "lightgrey", backgroundColor: "#1a759fff", color: "lightgrey" }} >
                 Sim
               </Button>
               </Box>
