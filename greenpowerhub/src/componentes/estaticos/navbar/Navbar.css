@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=IBM+Plex+Mono:wght@300&family=Open+Sans&display=swap');
 
-.cursor{
+.cursor {
     cursor: pointer;
     color: white;
-    font-family: Fredoka One,cursive ;
+    font-family: Fredoka One, cursive;
 }
-.text-decorator-none{
+
+.text-decorator-none {
     text-decoration: none;
 }
 
-.appbar{
-    background-color:#34a0a4ff!important;
+.appbar {
+    background-color: #34a0a4ff !important;
     background: linear-gradient(to bottom, #184e77 0%, #34a0a4 100%);
-   list-style-type: none;
-   width: 100vw;
-   height: 70px;
+    list-style-type: none;
+    width: 100vw;
+    height: 70px;
+
 }
 
-.logout{
+.logout {
     margin-top: 4.5px;
+    margin-left: 670px !important;
+
 }
-
-

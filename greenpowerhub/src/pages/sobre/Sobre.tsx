@@ -39,7 +39,7 @@ function Sobre() {
 
     return (
         <>
-            <Grid md={12} container direction="row" justifyContent="center" alignItems="center" className='titulo'>
+            <Grid md={12} container direction="row" justifyContent="center" alignItems="center" className='titulo'  style={{paddingTop:"55px"}}>
                 <Grid alignItems="center" item md={6}>
                     <Box>
                         <Typography variant="h2" gutterBottom color="white" component="h3" align="center" className='devscard1'>Sobre GPH</Typography>
@@ -98,7 +98,7 @@ function Sobre() {
                         <img src="./images/Bruno.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" gutterBottom color="white" align="center" className="nomeDev">Bruno Ferreira</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre">Dev Full Stack</Typography>
-                        <Typography variant="body2" gutterBottom color="white" component="h3" align="center" className='devscard' id="devsFila1">Realizando formação em Banco de dados e Jogos digitais e recém formada na Generation. Convido você a explorar meu trabalho e conhecer um pouco mais sobre minha trajetória profissional.  </Typography>
+                        <Typography variant="body2" gutterBottom color="white" component="h3" align="center" className='devscard' id="devsFila1">Recém formado na Generation Brasil como desenvolvedor JAVA Fullstack. Convido você para conhecer um pouco mais do meu trabalho de formação e minha trajetória profissional.</Typography>
 
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <a href="https://www.linkedin.com/in/bruno-ferreira-500604240/" target="_blank">
@@ -116,7 +116,7 @@ function Sobre() {
                         <img src="./images/alessandra.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" className="nomeDev" gutterBottom color="white" align="center">Alessandra Mariana</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre">Dev Full Stack</Typography>
-                        <Typography variant="body2" gutterBottom color="white" align="center" className='devscard' id="devsFila1">Realizando formação em Banco de dados e Jogos digitais e recém formada na Generation. Convido você a explorar meu trabalho e conhecer um pouco mais sobre minha trajetória profissional. </Typography>
+                        <Typography variant="body2" gutterBottom color="white" align="center" className='devscard' id="devsFila1">Graduanda em Sistemas de Informação, recém formada na Generation e em Análise e Desenvolvimento de Sistemas. Acesse minhas redes para conhecer meu trabalho e trajetória profissional.</Typography>
 
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <a href="https://www.linkedin.com/in/alessandramariana/" target="_blank">
@@ -134,7 +134,7 @@ function Sobre() {
                         <img src="./images/Luiz.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" className="nomeDev" gutterBottom color="white" align="center">Luiz Rodrigues</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre">Dev Full Stack</Typography>
-                        <Typography variant="body2" gutterBottom color="white" align="center" className='devscard' id="devsFila1">Realizando formação em Banco de dados e Jogos digitais e recém formada na Generation. Convido você a explorar meu trabalho e conhecer um pouco mais sobre minha trajetória profissional. </Typography>
+                        <Typography variant="body2" gutterBottom color="white" align="center" className='devscard' id="devsFila1">Estudando Análise e Desenvolvimento de Sistemas, formado pela Generation Brasil, com experiência em empresas de grande porte. Habilidade em utilizar softwares e ferramentas como pacote office, sistemas hospitalares e de gestão.</Typography>
 
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <a href="https://www.linkedin.com/in/luiz-fernando-benedito-rodrigues-371709149/" target="_blank">
@@ -174,7 +174,7 @@ function Sobre() {
                         <img src="./images/Ricardo.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" className="nomeDev" gutterBottom color="white" align="center" >Ricardo Marinho</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre">Dev Full Stack</Typography>
-                        <Typography variant="body2" gutterBottom color="white" align="center" className='devscard'>Realizando formação em Banco de dados e Jogos digitais e recém formada na Generation. Convido você a explorar meu trabalho e conhecer um pouco mais sobre minha trajetória profissional. </Typography>
+                        <Typography variant="body2" gutterBottom color="white" align="center" className='devscard'>Desenvolvedor Java full stack formado pela Generation. Convido você a conhecer um pouco mais o meu trabalho. </Typography>
 
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <a href="https://www.linkedin.com/in/rcmgodoy/" target="_blank">
@@ -192,7 +192,7 @@ function Sobre() {
                         <img src="./images/Alanis.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" className="nomeDev" gutterBottom color="white" align="center">Alanis Mayra</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre" >Dev Full Stack</Typography>
-                        <Typography variant="body2" gutterBottom color="white" align="center" className='devscard'>Realizando formação em Banco de dados e Jogos digitais e recém formada na Generation. Convido você a explorar meu trabalho e conhecer um pouco mais sobre minha trajetória profissional. </Typography>
+                        <Typography variant="body2" gutterBottom color="white" align="center" className='devscard'>Formada pela Generation Brasil, venha explorar meus projetos e conhecer um pouco mais sobre minha trajetória profissional.</Typography>
 
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <a href="https://www.linkedin.com/in/alanis-mayra/" target="_blank">

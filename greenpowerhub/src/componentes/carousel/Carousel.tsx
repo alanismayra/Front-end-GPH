@@ -12,12 +12,14 @@ import "./Carousel.css";
 // Importanto Componentes do Swiper
 import { Autoplay, Pagination, Navigation } from 'swiper';
 
-import Imagem1 from '/images/Energia Biomassa.png'
-import Imagem2 from '/images/Energia Geotérmica.png'
-import Imagem3 from '/images/Energia Hidraúlica.png'
-import Imagem4 from '/images/Energia maremotriz.jpg'
-import Imagem5 from '/images/Energia eolica.png'
-import Imagem6 from '/images/Energia solar.jpg'
+import Imagem1 from '/images/img1.jpeg'
+import Imagem2 from '/images/img2.jpeg'
+import Imagem3 from '/images/img3.jpeg'
+import Imagem4 from '/images/img4.jpeg'
+import Imagem5 from '/images/Maremotriz.jpeg'
+import Imagem6 from '/images/img6.jpeg'
+import Imagem7 from '/images/Solar.jpg'
+import Imagem8 from '/images/Solar2.jpg'
 
 function Carrossel() {
     return (
@@ -62,6 +64,15 @@ function Carrossel() {
                 <SwiperSlide>
                     <img src={Imagem6} />
                 </SwiperSlide>
+
+                <SwiperSlide>
+                    <img src={Imagem7} />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <img src={Imagem8} />
+                </SwiperSlide>
+
 
             </Swiper>
         </>

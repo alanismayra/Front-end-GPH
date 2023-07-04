@@ -22,21 +22,21 @@ function Contato() {
 
     return (
         <>
-            <Grid container direction='row' justifyContent='center' alignItems='center' style={{ backgroundColor: " #FFFCEE" }} >
+            <Grid container direction='row' justifyContent='center' alignItems='center' className='text_form' >
                 <Grid sm={6}>
-                    <Box marginLeft="80px" marginTop="50px" alignItems="center" className='fundoCtt' marginRight="30px" textAlign="center">
+                    <Box marginLeft="80px" marginTop="90px" alignItems="center" className='fundoCtt' marginRight="30px" textAlign="center">
 
                         <Typography variant='h3' fontWeight="bold" style={{ color: "white" }} >Informações de contato</Typography>
-                        <Box my={5}></Box>
+                        <Box my={2}></Box>
                         <Typography variant='h5' style={{ color: "white" }} >Telefone: (11) 2052-2089</Typography>
                         <Box my={1}></Box>
                         <Typography variant='h5' style={{ color: "white" }} >Email: greenpowerhub1@gmail.com</Typography>
                         <Box my={1}></Box>
                         <Typography variant='h5' style={{ color: "white" }} >Endereço: São Paulo - SP</Typography>
-                        <Box my={12}></Box>
+                        <Box my={6}></Box>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.39578113315!2d-46.924970224858164!3d-23.68143454784927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1688404953435!5m2!1spt-BR!2sbr"
-                            width="400"
-                            height="250"
+                            width="500"
+                            height="330"
                             loading="lazy"
                         ></iframe>
 
@@ -44,9 +44,9 @@ function Contato() {
                     </Box>
                 </Grid>
                 <Grid sm={6} >
-                    <Box marginLeft="90px" marginTop="50px" alignItems="center" className='fundoCtt' marginRight="60px" textAlign="center" height="565px">
+                    <Box marginLeft="90px" marginTop="90px" alignItems="center" className='fundoCtt' marginRight="60px" textAlign="center" height="565px"  >
 
-                        <Typography variant='h3' fontWeight="bold" style={{ color: "white" }}>Informações de contato</Typography>
+                        <Typography variant='h3' fontWeight="bold" style={{ color: "white" }}>Entre em contato</Typography>
                         <main className="contato">
                             <form className="formulario" >
                                 <TextField

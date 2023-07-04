@@ -34,7 +34,7 @@ function Navbar() {
 
     if (token != "") {
         navbarComponent =
-            <AppBar position="static" className='appbar'>
+            <AppBar position="fixed" className='appbar'>
                 <Toolbar variant="dense" style={{ height: '100%' }}>
                     <Box display="flex" justifyContent="space-between" alignItems='center' height='100%'>
                             <Link to='/home' className='cursor'>
@@ -82,7 +82,7 @@ function Navbar() {
                                 </Box>
                             </Link>
 
-                            <Box mx={2} style={{ cursor: "pointer" }} onClick={goLogout} className="logout">
+                            <Box mx={2} style={{ cursor: "pointer" }} onClick={goLogout} className="logout" >
                                 <Typography variant="h5" color="inherit">
                                 <SvgIcon component={ExitToAppIcon} viewBox="lightgrey"/>
                                 </Typography>

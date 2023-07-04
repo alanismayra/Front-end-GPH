@@ -20,11 +20,12 @@
     backdrop-filter: blur(20px);
     border-radius: 5%;
     box-shadow: 0 0 70px;
-    
+   
 }
 
 .textos{
     color: #1a759fff !important;
+    
 }
 
 .texto1{
@@ -35,11 +36,15 @@
     background-color: white;
     display: flex !important;
     justify-content: center !important;
-    align-items: center !important;
+    width:350px !important;
 }
 
 .cadastro{
     color: #1a759fff  !important;
     
+}
+
+body{
+    margin-top: 0px ;
 }
 

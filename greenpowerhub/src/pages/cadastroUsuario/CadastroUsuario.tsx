@@ -76,11 +76,14 @@ function CadastroUsuario() {
                 <Box paddingX={20}>
                     <form onSubmit={onSubmit} className="fundoForm">
                         <Typography variant='h3' gutterBottom component='h3' align='center' style={{ fontWeight: 'bold', color:'white' }}>Cadastrar</Typography>
+                        <Box display="grid" justifyContent="center">
                         <TextField value={user.nome} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='nome' label='nome' variant='outlined' name='nome' margin='normal' fullWidth className='caixa' />
                         <TextField value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='usuario' label='usuario' variant='outlined' name='usuario' margin='normal' fullWidth className='caixa' />
                         <TextField value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha' label='senha' variant='outlined' name='senha' margin='normal' type='password' fullWidth className='caixa'/>
                         <TextField value={confirmarSenha} onChange={(e: ChangeEvent<HTMLInputElement>) => confirmarSenhaHandle(e)} id='confirmarSenha' label='confirmarSenha' variant='outlined' name='confirmarSenha' margin='normal' type='password' fullWidth className='caixa'/>
+                        </Box>
                         <Box marginTop={2} textAlign='center'>
+                        
                             <Link to='/login' text-decorator-none='none'>
                                 <Button variant='contained' className='btnCancelar'>
                                     Cancelar

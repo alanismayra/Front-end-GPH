@@ -7,25 +7,35 @@
     display: flex;
     gap: 3rem;
     justify-content: center;
-    padding: 40px;
+    padding: 40px;   
 }
 
 button{
     background-color: var(--background-nav);
     font-weight: 800;
     color: white;
-    
 }
 
 .fundoCtt {
     box-shadow: 0 0 20px;
-    border-radius: 2%;
+    border-radius: 5%;
     background: linear-gradient(to bottom, #76c893 0%, #168aad 100%);
+    margin-bottom: 90px;
     
 }
 
-.texto_form{
-    background-color: white;
-
+.text_form{
+    background-color: rgb(220, 235, 235)   !important; 
+    
 }
+
+body{
+    background-color: rgb(220, 235, 235)  !important;
+  }
+
+  .texto_form{
+    background-color: rgb(220, 235, 235)   !important;  
+}
+
+
 

@@ -4,8 +4,8 @@
     font-family: 'Bacasime Antique', serif !important;
 } */
     
-.caixa{
-    background-color: #FFFCEE;
+.caixa1{
+    background-color: rgb(220, 235, 235) !important;
  
  }
  
@@ -29,7 +29,7 @@
      border-radius: 2rem !important;
  }
  .postagens{
-     background-color:#E9DDC3;
+    background-color: rgb(220, 235, 235);
      
  }
 
