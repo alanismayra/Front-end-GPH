@@ -6,6 +6,7 @@ import { TokenState } from '../../../store/tokens/TokenReducer';
 import { addToken } from '../../../store/tokens/Action';
 import {toast} from 'react-toastify';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import imgLogo from '../../../assets/images/logoGPH1.png';
 
 function Navbar() {
 
@@ -40,7 +41,7 @@ function Navbar() {
                             <Link to='/home' className='cursor'>
                                 <Box mx={3} style={{ cursor: "pointer" }} >
                                     <Typography variant="h3" color="inherit" >
-                                         <img src='./images/logoGPH1.png' alt="logo" referrerPolicy="no-referrer" height='60px' />
+                                         <img src={imgLogo} alt="logo" referrerPolicy="no-referrer" height='60px' />
                                     </Typography>
                                 </Box>
                             </Link>

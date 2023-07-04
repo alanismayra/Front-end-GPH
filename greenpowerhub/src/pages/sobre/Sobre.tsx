@@ -2,15 +2,21 @@ import { useNavigate } from 'react-router-dom';
 import './Sobre.css';
 import { toast } from 'react-toastify';
 import { Grid } from "@material-ui/core";
-
 import { Box, Typography } from "@mui/material";
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 import { TokenState } from '../../store/tokens/TokenReducer';
-
-
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import imgAlanis from '../../assets/images/Alanis.jpg';
+import imgAle from '../../assets/images/alessandra.jpg';
+import imgBruno from '../../assets/images/Bruno.jpg';
+import imgLuiz from '../../assets/images/Luiz.jpg';
+import imgRick from '../../assets/images/Ricardo.jpg';
+import imgThayna from '../../assets/images/Thayna.jpg';
+import imgCoracao from '../../assets/images/coracao.png';
+import imgSol from '../../assets/images/sol.png';
+import imgSolo from '../../assets/images/solo.png';
 
 
 function Sobre() {
@@ -52,14 +58,14 @@ function Sobre() {
 
                 <Grid item md={6}>
                     <Box paddingX={5} textAlign={'center'}>
-                        <img src="./images/solo.png" className="imagemCentral" width="350px" height="350px" />
+                        <img src={imgSolo} className="imagemCentral" width="350px" height="350px" />
                     </Box>
                 </Grid>
             </Grid>
             <Grid md={12} container direction="row" justifyContent="center" alignItems="center" className='cardmissao' >
                 <Grid item md={6}>
                     <Box paddingX={5} textAlign={'center'}>
-                        <img src="./images/sol.png" className="imagemCentral" width="300px" height="300px" />
+                        <img src={imgSol} className="imagemCentral" width="300px" height="300px" />
                     </Box>
                 </Grid>
                 <Grid alignItems="center" item md={6}>
@@ -79,7 +85,7 @@ function Sobre() {
                 </Grid>
                 <Grid item md={6}>
                     <Box paddingX={5} textAlign={'center'}>
-                        <img src="./images/coracao.png" className="imagemCentral" width="280px" height="280px" />
+                        <img src={imgCoracao} className="imagemCentral" width="280px" height="280px" />
                     </Box>
                 </Grid>
             </Grid>
@@ -95,7 +101,7 @@ function Sobre() {
 
                 <Grid item md={4}>
                     <Box paddingX={5} textAlign={'center'}>
-                        <img src="./images/Bruno.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
+                        <img src={imgBruno} className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" gutterBottom color="white" align="center" className="nomeDev">Bruno Ferreira</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre">Dev Full Stack</Typography>
                         <Typography variant="body2" gutterBottom color="white" component="h3" align="center" className='devscard' id="devsFila1">Recém formado na Generation Brasil como desenvolvedor JAVA Fullstack. Convido você para conhecer um pouco mais do meu trabalho de formação e minha trajetória profissional.</Typography>
@@ -113,7 +119,7 @@ function Sobre() {
 
                 <Grid item md={4}>
                     <Box paddingX={5} textAlign={'center'}>
-                        <img src="./images/alessandra.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
+                        <img src={imgAle} className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" className="nomeDev" gutterBottom color="white" align="center">Alessandra Mariana</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre">Dev Full Stack</Typography>
                         <Typography variant="body2" gutterBottom color="white" align="center" className='devscard' id="devsFila1">Graduanda em Sistemas de Informação, recém formada na Generation e em Análise e Desenvolvimento de Sistemas. Acesse minhas redes para conhecer meu trabalho e trajetória profissional.</Typography>
@@ -131,7 +137,7 @@ function Sobre() {
 
                 <Grid item md={4}>
                     <Box paddingX={5} textAlign={'center'}>
-                        <img src="./images/Luiz.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
+                        <img src={imgLuiz} className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" className="nomeDev" gutterBottom color="white" align="center">Luiz Rodrigues</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre">Dev Full Stack</Typography>
                         <Typography variant="body2" gutterBottom color="white" align="center" className='devscard' id="devsFila1">Estudando Análise e Desenvolvimento de Sistemas, formado pela Generation Brasil, com experiência em empresas de grande porte. Habilidade em utilizar softwares e ferramentas como pacote office, sistemas hospitalares e de gestão.</Typography>
@@ -149,7 +155,7 @@ function Sobre() {
 
                 <Grid item md={4}>
                     <Box paddingX={5} textAlign={'center'}>
-                        <img src="./images/Thayna.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
+                        <img src={imgThayna} className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" className="nomeDev" gutterBottom color="white" align="center" >Thayna de A.</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre">Dev Full Stack</Typography>
                         <Typography variant="body2" gutterBottom color="white" align="center" className='devscard' id="devsFila1">Realizando formação em Banco de dados e Jogos digitais e recém formada na Generation. Convido você a explorar meu trabalho e conhecer um pouco mais sobre minha trajetória profissional. </Typography>
@@ -171,7 +177,7 @@ function Sobre() {
 
                 <Grid item md={4}>
                     <Box paddingX={5} textAlign={'center'}>
-                        <img src="./images/Ricardo.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
+                        <img src={imgRick} className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" className="nomeDev" gutterBottom color="white" align="center" >Ricardo Marinho</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre">Dev Full Stack</Typography>
                         <Typography variant="body2" gutterBottom color="white" align="center" className='devscard'>Desenvolvedor Java full stack formado pela Generation. Convido você a conhecer um pouco mais o meu trabalho. </Typography>
@@ -189,7 +195,7 @@ function Sobre() {
 
                 <Grid item md={4}>
                     <Box paddingX={5} textAlign={'center'}>
-                        <img src="./images/Alanis.jpg" className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
+                        <img src={imgAlanis} className="fotosDev" width="120px" height="120px" referrerPolicy="no-referrer" />
                         <Typography variant="h6" className="nomeDev" gutterBottom color="white" align="center">Alanis Mayra</Typography>
                         <Typography variant="body1" gutterBottom color="white" align="center" className="subtituloSobre" >Dev Full Stack</Typography>
                         <Typography variant="body2" gutterBottom color="white" align="center" className='devscard'>Formada pela Generation Brasil, venha explorar meus projetos e conhecer um pouco mais sobre minha trajetória profissional.</Typography>

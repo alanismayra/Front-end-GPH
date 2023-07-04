@@ -3,7 +3,7 @@
 }
 
 .imgCadastre {
-    background-image: url(./images/cadastre.jpg);
+    background-image: url(/src/assets/images/cadastre.jpg);
     background-repeat: no-repeat;
     width: 1000vh;
     min-height: 100vh;

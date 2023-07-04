@@ -12,14 +12,14 @@ import "./Carousel.css";
 // Importanto Componentes do Swiper
 import { Autoplay, Pagination, Navigation } from 'swiper';
 
-import Imagem1 from '/images/img1.jpeg'
-import Imagem2 from '/images/img2.jpeg'
-import Imagem3 from '/images/img3.jpeg'
-import Imagem4 from '/images/img4.jpeg'
-import Imagem5 from '/images/Maremotriz.jpeg'
-import Imagem6 from '/images/img6.jpeg'
-import Imagem7 from '/images/Solar.jpg'
-import Imagem8 from '/images/Solar2.jpg'
+import Imagem1 from '../../assets/images/img1.jpeg'
+import Imagem2 from '../../assets/images/img2.jpeg'
+import Imagem3 from '../../assets/images/img3.jpeg'
+import Imagem4 from '../../assets/images/img4.jpeg'
+import Imagem5 from '../../assets/images/Maremotriz.jpeg'
+import Imagem6 from '../../assets/images/img6.jpeg'
+import Imagem7 from '../../assets/images/Solar.jpg'
+import Imagem8 from '../../assets/images/Solar2.jpg'
 
 function Carrossel() {
     return (

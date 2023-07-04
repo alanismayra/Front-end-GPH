@@ -7,7 +7,8 @@
 }
 
 .imagem {
-    background-image: url(/images/renewable-1989416.jpg);
+    background-image: url(/src/assets/images/renewable-1989416.jpg
+    );
     background-repeat: no-repeat;
     width: 1000vh;
     min-height: 100vh;

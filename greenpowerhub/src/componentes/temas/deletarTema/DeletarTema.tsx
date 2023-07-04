@@ -72,7 +72,7 @@ function DeletarTema() {
 
   return (
     <>
-      <Box m={2}>
+      <Box m={2} style={{paddingTop:"60px"}}>
         <Card variant="outlined" className="corDeletarTema">
           <CardContent>
             <Box justifyContent="center">

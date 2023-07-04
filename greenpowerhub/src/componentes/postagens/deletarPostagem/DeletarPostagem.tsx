@@ -71,7 +71,7 @@ function DeletarPostagem() {
   }
   return (
     <>
-      <Box m={2}>
+      <Box m={2} style={{paddingTop:"60px"}}>
         <Card variant="outlined" className="corDeletarPosts">
           <CardContent>
             <Box justifyContent="center">
